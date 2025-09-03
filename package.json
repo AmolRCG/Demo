@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "allure-playwright": "^3.3.3"
+  }
+}

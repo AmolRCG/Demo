@@ -1,0 +1,67 @@
+package locator;
+
+public class RegisterLocators {
+    public static final String SIGNUP_LOGIN_BUTTON = "a[href='/login']";
+    public static final String NEW_USER_SIGNUP_TEXT = "//*[text()='New User Signup!']";
+    public static final String NAME_INPUT = "input[data-qa='signup-name']";
+    public static final String EMAIL_SIGNUP_INPUT = "input[data-qa='signup-email']";
+    public static final String EMAIL_LOGIN_INPUT = "input[data-qa='login-email']";
+    public static final String EMAIL_PASSWORD_INPUT = "input[data-qa='login-password']";
+    public static final String EMAIL_LOGIN_BUTTON = "button[data-qa='login-button']";
+    public static final String SIGNUP_BUTTON = "button[data-qa='signup-button']";
+
+    public static final String ENTER_ACCOUNT_INFO_TEXT = "//*[text()='Enter Account Information']";
+    public static final String TITLE_RADIO = "#id_gender1";
+    public static final String PASSWORD_INPUT = "#password";
+    public static final String DOB_DAY = "#days";
+    public static final String DOB_MONTH = "#months";
+    public static final String DOB_YEAR = "#years";
+    public static final String NEWSLETTER_CHECKBOX = "#newsletter";
+    public static final String OFFERS_CHECKBOX = "#optin";
+    public static final String FIRST_NAME = "#first_name";
+    public static final String LAST_NAME = "#last_name";
+    public static final String COMPANY = "#company";
+    public static final String ADDRESS1 = "#address1";
+    public static final String ADDRESS2 = "#address2";
+    public static final String COUNTRY = "#country";
+    public static final String STATE = "#state";
+    public static final String CITY = "#city";
+    public static final String ZIPCODE = "#zipcode";
+    public static final String MOBILE = "#mobile_number";
+    public static final String CREATE_ACCOUNT_BUTTON = "button[data-qa='create-account']";
+    public static final String ACCOUNT_CREATED_TEXT = "//*[text()='Account Created!']";
+    public static final String CONTINUE_SHOPPING_BUTTON = "//button[contains(text(),'Continue Shopping')]";
+    public static final String LOGGED_IN_AS = "//*[contains(text(),'Logged in as')]";
+    //public static final String LOGGED_IN_AS="//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[10]/a/text()";
+    public static final String DELETE_ACCOUNT_BUTTON = "a[href='/delete_account']";
+    public static final String ACCOUNT_DELETED_TEXT = "//*[text()='Account Deleted!']";
+    public static final String LOGIN_TO_YOUR_ACCOUNT_TEXT = "//*[text()='Login to your account']";
+    public static final String LOGOUT_BUTTON = "//a[normalize-space()='Logout']";
+    public static final String EMAIL_ERROR_MESSAGE = "//*[contains(text(),'Email Address already exist!')]";
+    public static final String EMAIL_OR_PASSWORD_ERROR_MESSAGE = "//div[@class='login-form']//p[contains(text(),'Your email or password is incorrect!')]";
+    public static final String CONTACT_US_BUTTON = "a[href='/contact_us']";
+    public static final String GET_IN_TOUCH_TEXT = "//*[text()='Get In Touch']";
+    public static final String NAME_INPUT_CONTACT = "input[data-qa='name']";
+    public static final String EMAIL_INPUT_CONTACT = "input[data-qa='email']";
+    public static final String SUBJECT_INPUT_CONTACT = "input[data-qa='subject']";
+    public static final String MESSAGE_INPUT_CONTACT = "textarea[data-qa='message']";
+    public static final String SUBMIT_BUTTON_CONTACT = "input[data-qa='submit-button']";
+    public static final String SUCCESS_MESSAGE_CONTACT = "//div[@class='status alert alert-success']";
+    public static final String VIEW_PRODUCTS_BUTTON = "//a[contains(text(),'View Product')]";
+    public static final String PRODUCTS_BUTTON="//a[contains(text(),'Products')]";
+    public static final String PRODUCT_NAME = "//div[@class='product-information']//h2";
+    public static final String PRODUCT_PRICE = "//div[@class='product-information']//span//span";
+    public static final String AVAILIBILITY = "//div[@class='product-information']//b[contains(text(),'Availability')]";
+    public static final String CONDITION = "//div[@class='product-information']//b[contains(text(),'Condition')]";
+    public static final String BRAND = "//div[@class='product-information']//b[contains(text(),'Brand')]";
+    public static  final String SEARCH_PRODUCT_INPUT = "input[id='search_product']";
+    public static final String SEARCH_SUBMIT_BUTTON = "button[id='submit_search']";
+    public static final String  PRODUCT_LIST="//div[@class='productinfo text-center']//p";
+    public static final String SUBSCRIPTION_TEXT= "//h2[contains(text(),'Subscription')]";
+    public static final String SUBSCRIPTION_EMAIL_INPUT = "//input[@id='susbscribe_email']";
+    public static final String SUBSCRIPTION_BUTTON = "//*[@id=\"subscribe\"]";
+    public static final String SUBSCRIPTION_SUCCESS_MESSAGE = "//div[contains(text(),'You have been successfully subscribed!')]";
+    public static final String QUANTITY_INPUT = "//input[@id='quantity']";
+    public static final String CONTINUE_BUTTON = "//a[contains(text(),'Continue')]";
+
+}
